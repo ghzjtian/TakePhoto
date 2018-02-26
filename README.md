@@ -1,5 +1,18 @@
 ## [TakePhoto](https://github.com/crazycodeboy/TakePhoto) 简介
 
+
+
+
+
+***
+***
+***
+
+
+测试 TakePhoto 的特性.
+
+***
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboy/TakePhoto/pulls)
 [![Download](https://api.bintray.com/packages/crazycodeboy/maven/TakePhoto/images/download.svg) ](https://bintray.com/crazycodeboy/maven/TakePhoto/_latestVersion)
 [![GitHub release](https://img.shields.io/github/release/crazycodeboy/TakePhoto.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/TakePhoto/releases)
