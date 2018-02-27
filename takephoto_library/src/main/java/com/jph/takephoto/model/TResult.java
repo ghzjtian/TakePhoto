@@ -38,4 +38,10 @@ public class TResult {
     public void setImage(TImage image) {
         this.image = image;
     }
+
+    @Override
+    public String toString() {
+//        return super.toString();
+        return "images:"+getImages().toString();
+    }
 }

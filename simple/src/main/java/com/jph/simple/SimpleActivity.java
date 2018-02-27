@@ -2,6 +2,7 @@ package com.jph.simple;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 
@@ -33,6 +34,7 @@ import java.util.ArrayList;
  * Eamil:crazycodeboy@gmail.com
  */
 public class SimpleActivity extends TakePhotoActivity {
+    private static final String TAG = SimpleActivity.class.getSimpleName();
     private CustomHelper customHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +45,8 @@ public class SimpleActivity extends TakePhotoActivity {
     }
 
     public void onClick(View view) {
+//        CompressImageImpl.
+
         customHelper.onClick(view,getTakePhoto());
     }
 
@@ -59,6 +63,7 @@ public class SimpleActivity extends TakePhotoActivity {
     @Override
     public void takeSuccess(TResult result) {
         super.takeSuccess(result);
+        Log.i(TAG,"result:"+result.toString());
         showImg(result.getImages());
     }
 

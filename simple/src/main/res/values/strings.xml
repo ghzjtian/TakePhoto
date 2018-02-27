@@ -3,4 +3,12 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="album_view">选择图片111</string>
+    <string name="image_view">单击选择111</string>
+    <string name="add">确定11</string>
+    <string name="selected">已选11</string>
+    <string name="limit_exceeded">最多能选 %d 张111</string>
+
+    <color name="multiple_image_select_primaryDark">#dd9846</color>
 </resources>

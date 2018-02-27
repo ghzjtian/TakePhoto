@@ -1,8 +1,24 @@
 ## [TakePhoto](https://github.com/crazycodeboy/TakePhoto) 简介
 
+## 1.里面所用到的第三方的 lib:
 
+### 1.Glide,快速高效的Android图片加载库
+* 1.https://github.com/bumptech/glide,https://muyangmin.github.io/glide-docs-cn/
+* 2.简书: https://www.jianshu.com/p/7ce7b02988a4
 
+### 2.Crop 图片剪裁.
+* 1.https://github.com/jdamcd/android-crop
 
+### 3.MultipleImageSelect 图片选择
+* 1.https://github.com/darsh2/MultipleImageSelect
+
+### 4.AdvancedLuban 高效、简洁的图片压缩工具库
+* 1.https://github.com/shaohui10086/AdvancedLuban
+
+***
+
+## 2.问题点
+* 1.当不启用压缩时，会 Crash.
 
 ***
 ***

@@ -5,4 +5,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+    <color name="MyRed">#ff0000</color>
+
+    <style name="TianCustomToolbarTheme" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/MyRed</item>
+    </style>
+
 </resources>
